@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .heading{
+    margin-top: 100px;
+  }
+  column1{
+    margin-left: 20px;
+    width: 40%;
+  }
+  
+  .feed-back{
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+  
+  .paragraph{
+    margin-left: 170px;
+    margin-top: -50px;
+   background-color: cornflowerblue;
+  }
+  .hr{
+    margin-top: 20px;
+  }
+  .h1{
+    color: ;
+  }
+  .username{
+    padding-bottom: 20px;
+  }
+  .adress{
+    margin-left: 20px;
+    padding-bottom: 20px;
+  }
+  .mobile{
+    padding-bottom: 20px;
+  
+  }
+  .PINCODE{
+    padding-bottom: 20px;
+    margin-left: 15px;
+  }
+  .name1{
+    padding-bottom: 20px;
+    margin-left: 60px;
+  }
+  .f-n{
+    padding-bottom: 20px;
+  }
+  .cu-a{
+    padding-bottom: 20px;
+    margin-left: -20px;
+  }
+  .mobile1{
+    padding-bottom: 20px;
+    margin-left: 20px;
+  }
+  .EMAIL{
+    margin-left: 50PX;
+  }
+ 
